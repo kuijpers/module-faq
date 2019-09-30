@@ -12,5 +12,5 @@
 */
 
 Route::prefix('faq')->group(function() {
-    Route::get('/', 'FaqController@index');
+    Route::get('/', 'FaqController@index')->name('main.faq');
 });
